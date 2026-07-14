@@ -245,3 +245,97 @@ iframe {
 
 
 }
+
+
+/* PARTNERS SECTION */
+
+
+.partners-section {
+
+    background:#020617;
+
+}
+
+
+
+.partner-intro {
+
+    max-width:750px;
+    margin:0 auto 40px;
+    text-align:center;
+    color:#cbd5e1;
+
+}
+
+
+
+.partner-grid {
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+
+}
+
+
+
+.partner-card {
+
+    background:#111827;
+    border:1px solid #1e293b;
+    border-radius:18px;
+    padding:30px;
+    text-align:center;
+    transition:.3s;
+
+}
+
+
+
+.partner-card:hover {
+
+    transform:translateY(-6px);
+    border-color:#3b82f6;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+
+
+.partner-icon {
+
+    font-size:40px;
+    margin-bottom:15px;
+
+}
+
+
+
+.partner-card h3 {
+
+    color:#60a5fa;
+    margin-bottom:15px;
+
+}
+
+
+
+.partner-card p {
+
+    color:#cbd5e1;
+
+}
+
+
+
+.status {
+
+    display:inline-block;
+    margin-top:20px;
+    padding:8px 14px;
+    border-radius:20px;
+    background:#1e293b;
+    color:#93c5fd;
+    font-size:.85rem;
+
+        }
